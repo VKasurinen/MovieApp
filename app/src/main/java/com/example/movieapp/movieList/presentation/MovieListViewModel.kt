@@ -43,6 +43,8 @@ class MovieListViewModel @Inject constructor(
                     getUpcomingMovieList(true)
                 }
             }
+
+            else -> {}
         }
     }
 
@@ -82,6 +84,8 @@ class MovieListViewModel @Inject constructor(
                             it.copy(isLoading = result.isLoading)
                         }
                     }
+
+                    else -> {}
                 }
             }
         }
@@ -125,6 +129,8 @@ class MovieListViewModel @Inject constructor(
                             it.copy(isLoading = result.isLoading)
                         }
                     }
+
+                    else -> {}
                 }
             }
         }
